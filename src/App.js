@@ -6,25 +6,25 @@ function App() {
   return (
     <div className="App">
       <PersonCard 
-        first_name={"Jane"} 
-        last_name={"Doe"} 
+        firstName={"Jane"} 
+        lastName={"Doe"} 
         age={45}
-        hair_color={"Black"} />
+        hairColor={"Black"} />
       <PersonCard 
-        first_name={"John"} 
-        last_name={"Smith"} 
+        firstName={"John"} 
+        lastName={"Smith"} 
         age={88} 
-        hair_color={"Brown"} />
+        hairColor={"Brown"} />
       <PersonCard 
-        first_name={"Millard"} 
-        last_name={"Fillmore"} 
+        firstName={"Millard"} 
+        lastName={"Fillmore"} 
         age={50} 
-        hair_color={"Brown"} />
+        hairColor={"Brown"} />
       <PersonCard 
-        first_name={"Maria"} 
-        last_name={"Smith"} 
+        firstName={"Maria"} 
+        lastName={"Smith"} 
         age={62} 
-        hair_color={"Brown"} />
+        hairColor={"Brown"} />
     </div>
   );
 }
